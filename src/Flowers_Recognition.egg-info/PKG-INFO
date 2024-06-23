@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Flowers-Recognition
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Meabhijit11/Flowers-Recognition-MLOps-MLFlow-DVC
+Author: Meabhijit11
+Author-email: meabhijitmeshram@gmail.com
+Project-URL: Bug Tracker, https://github.com/Meabhijit11/Flowers-Recognition-MLOps-MLFlow-DVC/issues
+License-File: LICENSE
+
+# Flowers-Recognition-MLOps-MLFlow-DVC

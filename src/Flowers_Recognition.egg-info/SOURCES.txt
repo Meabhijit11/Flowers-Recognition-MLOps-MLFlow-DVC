@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/Flowers-Recognition/__init__.py
+src/Flowers-Recognition/components/__init__.py
+src/Flowers-Recognition/config/__init__.py
+src/Flowers-Recognition/config/configuration.py
+src/Flowers-Recognition/constants/__init__.py
+src/Flowers-Recognition/entity/__init__.py
+src/Flowers-Recognition/pipeline/__init__.py
+src/Flowers-Recognition/utils/__init__.py
+src/Flowers_Recognition.egg-info/PKG-INFO
+src/Flowers_Recognition.egg-info/SOURCES.txt
+src/Flowers_Recognition.egg-info/dependency_links.txt
+src/Flowers_Recognition.egg-info/top_level.txt
