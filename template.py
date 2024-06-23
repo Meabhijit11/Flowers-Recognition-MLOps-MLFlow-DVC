@@ -5,7 +5,7 @@ import logging
 #logging string
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')   #To get the logginig information or activities
 
-project_name = 'Flowers-Recognition'
+project_name = 'FlowersRecognition'
 
 list_of_files = [
     ".github/workflows/.gitkeep",
