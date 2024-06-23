@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Flowers-Recognition-MLOps-MLFlow-DVC"
 AUTHOR_USER_NAME = "Meabhijit11"
-SRC_REPO = "Flowers-Recognition"
+SRC_REPO = "FlowersRecognition"
 AUTHOR_EMAIL = "meabhijitmeshram@gmail.com"
 
 setuptools.setup(
