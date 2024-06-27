@@ -11,8 +11,6 @@ class DataIngestionTrainingPipeline:
     def __init__(self):
         pass
 
-#Create method main and copy pipeline from notebook
-
     def main(self):
         config = ConfigurationManager()
         data_ingestion_config = config.get_data_ingestion_config()
@@ -21,7 +19,7 @@ class DataIngestionTrainingPipeline:
         data_ingestion.extract_zip_file()
 
 
-    
+
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")

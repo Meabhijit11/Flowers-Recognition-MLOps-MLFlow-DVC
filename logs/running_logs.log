@@ -55,3 +55,77 @@
 [2024-06-26 22:36:33,819: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-06-27 20:44:26,580: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-27 20:44:26,589: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 20:44:26,590: INFO: common: created directory at: artifacts]
+[2024-06-27 20:44:26,590: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-27 20:44:27,269: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-27 22:42:58,878: INFO: main: welcome to our logger]
+[2024-06-27 22:42:58,880: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-27 22:42:58,880: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-27 22:42:58,885: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 22:42:58,890: INFO: common: created directory at: artifacts]
+[2024-06-27 22:42:58,890: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    data_ingestion.main()
+  File "c:\users\meabh\vs-mlops\flowers-recognition-mlops-mlflow-dvc\src\FlowersRecognition\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-06-27 22:45:25,134: INFO: main: welcome to our logger]
+[2024-06-27 22:45:25,139: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-27 22:45:25,139: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-27 22:45:25,139: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 22:45:25,139: INFO: common: created directory at: artifacts]
+[2024-06-27 22:45:25,139: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    data_ingestion.main()
+  File "c:\users\meabh\vs-mlops\flowers-recognition-mlops-mlflow-dvc\src\FlowersRecognition\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-06-27 22:46:22,041: INFO: main: welcome to our logger]
+[2024-06-27 22:46:22,041: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-27 22:46:22,046: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-27 22:46:22,048: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 22:46:22,049: INFO: common: created directory at: artifacts]
+[2024-06-27 22:46:22,049: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    data_ingestion.main()
+  File "c:\users\meabh\vs-mlops\flowers-recognition-mlops-mlflow-dvc\src\FlowersRecognition\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-06-27 22:48:01,541: INFO: main: welcome to our logger]
+[2024-06-27 22:48:01,541: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-27 22:48:01,541: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-27 22:48:01,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 22:48:01,546: INFO: common: created directory at: artifacts]
+[2024-06-27 22:48:01,546: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    data_ingestion.main()
+  File "c:\users\meabh\vs-mlops\flowers-recognition-mlops-mlflow-dvc\src\FlowersRecognition\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-06-27 22:50:55,749: INFO: main: welcome to our logger]
+[2024-06-27 22:50:55,749: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-27 22:50:55,749: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-27 22:50:55,749: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 22:50:55,753: INFO: common: created directory at: artifacts]
+[2024-06-27 22:50:55,754: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-27 22:50:55,754: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1OhHyzKebC6_kYRh_zmGp8xzH3eMU6LrL/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-06-27 22:51:08,188: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1OhHyzKebC6_kYRh_zmGp8xzH3eMU6LrL/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-06-27 22:51:11,763: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-27 22:51:11,763: INFO: main: *******************]
+[2024-06-27 22:51:11,763: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-27 22:51:11,766: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-27 22:51:11,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-27 22:51:11,769: INFO: common: created directory at: artifacts]
+[2024-06-27 22:51:11,770: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-27 22:51:12,576: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-27 22:51:13,249: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
