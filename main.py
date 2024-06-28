@@ -1,6 +1,7 @@
 from FlowersRecognition import logger
 from FlowersRecognition.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
-from FlowersRecognition.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline                                                              
+from FlowersRecognition.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline  
+from FlowersRecognition.pipeline.stage_03_model_training import ModelTrainingPipeline                                                            
 
 
 logger.info('welcome to our logger')
@@ -17,8 +18,6 @@ except Exception as e:
         raise e
 
 
-
-
 STAGE_NAME = "Prepare base model"
 try: 
    logger.info(f"*******************")
@@ -29,3 +28,15 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+
+
+STAGE_NAME = "Model Training"
+try:
+   logger.info(f"*******************")
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   obj = ModelTrainingPipeline()
+   obj.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+   logger.exception(e)
+   raise e
